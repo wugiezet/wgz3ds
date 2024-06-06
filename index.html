@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Adrian Węgrzecki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #333;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            color: #fff;
+        }
+        .main {
+            max-width: 1200px;
+            padding: 20px;
+            text-align: center;
+        }
+        .interactive-model {
+            margin: 20px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            background-color: #282828;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+        .footer {
+            background-color: #333;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Portfolio Adrian Węgrzecki
+    </header>
+    <div class="main">
+        <h1>Witaj na mojej stronie!</h1>
+        <p>Jestem specjalistą od modelowania 3D. Tworzę nowoczesne meble, postacie 3D oraz inne modele, korzystając z technologii AI.</p>
+        <div class="interactive-model">
+            <h2>Interaktywne Modele</h2>
+            <iframe width="640" height="480" src="https://sketchfab.com/models/YOUR_MODEL_ID/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <h3>Nowoczesne Meble</h3>
+                <p>Image coming soon</p>
+            </div>
+            <div class="gallery-item">
+                <h3>Postacie 3D</h3>
+                <p>Image coming soon</p>
+            </div>
+            <div class="gallery-item">
+                <h3>Pikselowe Modele</h3>
+                <p>Image coming soon</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; 2024 Adrian Węgrzecki. Wszelkie prawa zastrzeżone.
+    </footer>
+</body>
+</html>
